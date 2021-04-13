@@ -1,8 +1,9 @@
 from random import randint
 
 print("==========================")
-print("WELCOME")
+print("WELCOME. ")
 print("GUESS THE NUMBER OF M&Ms")
+print("You have 5 chances to find the right number. Numbers from 1 to 100. Good luck!")
 print("==========================")
 
 def game():
