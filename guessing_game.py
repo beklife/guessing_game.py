@@ -19,7 +19,7 @@ def game():
             else:
                 print("Your guess is smaller!")
         else:
-            print(f"You loose! That's too bad. The answer was {answer}.")
+            print(f"You lost! That's too bad. The answer was {answer}.")
 
         again = str(input("Do you want to play again? y or n: "))
         if again == "y":
