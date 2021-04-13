@@ -1,6 +1,7 @@
 from random import randint
 
 print("==========================")
+print("WELCOME")
 print("GUESS THE NUMBER OF M&Ms")
 print("==========================")
 
