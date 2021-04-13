@@ -24,7 +24,7 @@ def game():
         if again == "y":
             game()
         else:
-            print("Thank you so much!")
+            break
 
 game()
 
