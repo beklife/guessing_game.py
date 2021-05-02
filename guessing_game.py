@@ -7,10 +7,10 @@ print("You have 5 chances to find the right number. Numbers from 1 to 100. Good 
 print("==========================")
 
 def game():
-    answer = randint(1, 100)
+    answer = randint(1, 130)
 
     while True:
-        for n in range(5):
+        for n in range(7):
             user_guess = int(input("Guess the number?\n"))
             if user_guess == answer:
                 print("WTF😱 dude, you won!")
